@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">WesleyLeonardoDaSilvaTrabalho3</string>
+    <string name="exemplo_de_media_player">Exemplo de Media Player</string>
+    <string name="exemplo_de_notificacao">Exemplo de Notificação</string>
+
+    <string name="menu_inicio">Menu de Exemplos</string>
+
+    <string name="voltar">Voltar</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="MediaPlayerInfoText">Também podemos fazer com que a imagens reproduzam áudio</string>
+    <string name="entao_agora_voce_esta_sabendo">Sabia? Hm, Não Sabia? Então Agora Você Está Sabendo!</string>
+    <string name="DropDatabase">APAGAR TODOS OS DADOS</string>
+    <string name="info">Informações</string>
+
+    <array name="musicas">
+        <item>"Escolha uma música:</item>
+        <item>Canon in E version</item>
+        <item>Mitorama - Mestres Araucárias</item>
+        <item>Greensleeves (Music Box)</item>
+    </array>
+
+    <string name="login">Digite um login</string>
+    <string name="senha">Digite uma senha</string>
+    <string name="nome">Digite um nome</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="bem_vindo">Bem vindo</string>
+    <string name="cadastrar_user">Cadastrar Usuário</string>
+
+    <string name="information">
+        Esses são alguns exemplos do que é ensinado na disciplina de Programação para Dispositivos Móveis.
+\n
+        \nVale lembrar que existem partes da disciplina que não foram possíveis de apresentar visualmente,
+        como por exemplo, a construção de itens na parte de persistência e a conexão com banco de dados interno.
+\n
+        \nOutras funcionalidades também não foram imlementadas por falta de organização do tempo em fazer o trabalho.
+\n
+        \nMas a disciplina oferece muito mais possibilidades do que foi apresentado aqui.
+\n
+        \nObrigado!
+\n
+        \nPor: Wesley Leonardo da Silva
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="congrats_notification">Isso aí! Essa foi uma notificação e você clicou nela!</string>
+
+
+</resources>

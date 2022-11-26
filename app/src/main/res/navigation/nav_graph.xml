@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.wesleyleonardodasilvatrabalho3.ui.InicioFragment"
+        android:label="Menu de Exemplos"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_mediaPlayerFragment"
+            app:destination="@id/mediaPlayerFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_loginFormFragment2"
+            app:destination="@id/loginFormFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_usersListFragment"
+            app:destination="@id/usersListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mediaPlayerFragment"
+        android:name="com.example.wesleyleonardodasilvatrabalho3.ui.MediaPlayerFragment"
+        android:label="@string/exemplo_de_media_player"
+        tools:layout="@layout/fragment_media_player" >
+        <action
+            android:id="@+id/action_mediaPlayerFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFormFragment"
+        android:name="com.example.wesleyleonardodasilvatrabalho3.ui.LoginFormFragment"
+        android:label="@string/cadastrar_user"
+        tools:layout="@layout/fragment_login_form" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.wesleyleonardodasilvatrabalho3.ui.LoginFragment"
+        android:label="@string/login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_loginFormFragment"
+            app:destination="@id/loginFormFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.wesleyleonardodasilvatrabalho3.ui.InfoFragment"
+        android:label="@string/info"
+        tools:layout="@layout/fragment_info" >
+        <action
+            android:id="@+id/action_infoFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.wesleyleonardodasilvatrabalho3.ui.NotificationFragment"
+        android:label="Exemplo de Notificação"
+        tools:layout="@layout/fragment_notification" >
+        <action
+            android:id="@+id/action_notificationFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersListFragment"
+        android:name="com.example.wesleyleonardodasilvatrabalho3.ui.UsersListFragment"
+        android:label="Exemplo de Persistência e Lista"
+        tools:layout="@layout/fragment_users_list" >
+        <action
+            android:id="@+id/action_usersListFragment_to_loginFormFragment"
+            app:destination="@id/loginFormFragment" />
+    </fragment>
+
+
+</navigation>
